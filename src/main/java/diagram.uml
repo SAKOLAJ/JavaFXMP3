@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-421.0" y="353.0">com.example.mp3.HelloController</node>
+    <node x="-501.0" y="-27.0">javafx.fxml.Initializable</node>
+    <node x="-150.5" y="883.5">javafx.application</node>
+    <node x="-325.0" y="223.0">com.example.mp3.HelloApplication</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.mp3.HelloController" target="javafx.fxml.Initializable" relationship="REALIZATION">
+      <point x="-59.5" y="-545.0" />
+      <point x="-361.5" y="213.0" />
+      <point x="-382.0" y="213.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.example.mp3.HelloApplication" target="javafx.fxml.Initializable" relationship="REALIZATION">
+      <point x="-41.25" y="-49.5" />
+      <point x="-283.75" y="213.0" />
+      <point x="-382.0" y="213.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.example.mp3.HelloController" target="com.example.mp3.HelloApplication" relationship="GENERALIZATION">
+      <point x="59.5" y="-545.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.5331306990881459" showDependencies="true" x="-193.49999999999977" y="640.5" />
+  <SelectedNodes>
+    <node>javafx.application</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
